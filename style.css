@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(11, 12, 12);
+    color: white;
+}
+h4{
+    text-align: left;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+p{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+header{
+    text-align: center;
+    text-decoration: underline;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    color: black;
+    font-weight: bolder;
+    
+}
