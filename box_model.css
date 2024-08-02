@@ -1,0 +1,27 @@
+div{
+height: 100px;
+width: 100px;
+background-color: pink;
+border: 2px solid brown;
+padding: 1px 2px 3px 4px; /*top right bottom left*/
+margin: 50px 50px 50px 50px;
+ 
+
+}
+
+
+/* h1{
+
+height: 200px;
+width: 200px;
+width: 50;
+border: 2px;
+border-style: dotted;
+border-color: brown;
+text-align: center;   
+text-decoration: dotted;
+background-color: skyblue;
+border: 2px dotted , rebeccapurple ;
+} 
+
+*/
