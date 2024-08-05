@@ -1,0 +1,17 @@
+div{
+    width: 200px;
+    height: 200px;
+    border:10px solid greenyellow ;
+    border-top: 10px solid black;
+    border-radius: 50%;
+    animation: spin 3s ease-in 0s infinite normal;
+
+}
+@keyframes spin{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
