@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation in CSS</title>
+    <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        background-color: bisque;
+                box-sizing: border-box;
+        
+    }
+    .rec{
+        height: 70px;
+        width: 120px;
+        background-color: blue;
+        border: 1px solid black;
+        margin-top: 20px;
+        margin-left: 20px;
+        position: relative;
+        /* animation-name: myAnime;
+        animation-duration: 3s;
+        animation-timing-function: cubic-bezier(0.175, 0.82, 0.9, 1);
+        animation-delay: 2s;
+        animation-iteration-count: 1;
+        /* animation-direction: reverse; */
+        /* animation-fill-mode:forwards ;  */ 
+        /* stop in right using fill mode */
+
+        /*  using short hand notation */
+
+        /* short hand notation :  duration function delay iteration-count direction fill-mode play-state name */
+        animation: 5s linear 1s infinite alternate none running myAnime;
+    }
+    .lRec{
+        height: 70px;
+        width: 120px;
+        background-color: blue;
+        border: 1px solid black;
+        margin-top: 20px;
+        margin-left: 20px;
+        position: relative;
+        animation: 5s linear 1s infinite alternate none running myAnimeL;
+    }
+    .circ{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        margin: 10px;
+        position: relative;
+        top: 30%;
+        left: 42%;
+        
+        background-color: blue;
+        animation: 10s ease-in-out 0s infinite alternate-reverse none running circ1;
+    }
+
+
+    @keyframes circ1 {
+     0% {
+      top: 1%;
+      left: 5%;
+     }
+     30% {
+
+        top: 5%;
+      left: 90%;
+     }
+     60% {
+        top: 90%;
+      left: 10%;
+
+     }
+     100% {
+        top: 95%;
+      left: 90%;
+
+     }
+
+    }
+
+
+    @keyframes myAnime {
+     from{
+     top: 0px;
+     left: 20px;
+
+     }
+     to{
+        top: 0px;
+        left: 1200px;
+     }
+    }
+        
+    @keyframes myAnimeL {
+     from{
+     top: 400px;
+     left: 1350px;
+
+     }
+     to{
+        top: 400px;
+        left: 0px;
+     }
+        
+    }
+
+
+    </style>
+</head>
+<body>
+
+   <div class="rec"> </div>
+   <div class="lRec"></div>
+   <div class="circ"></div>
+    
+</body>
+</html>
