@@ -1,0 +1,98 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .container{
+        height: 20rem;
+        width: 450px;
+        background-color: bisque;
+        border: 2px solid black;
+        display: flex;
+     }
+
+     #boxLeft{
+        background-color: aqua;
+        border: 3px solid black;
+        width: 45%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-right: 20px;
+        
+     }
+     #boxRight{
+        background-color: rgb(255, 11, 149);
+        border: 3px solid black;
+        width: 45%;
+        margin-right: 20px;
+
+        
+     }
+     p{
+        font-size: larger;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+     #p1{
+        height: 50px;
+        width:50px;
+           background-color: black;
+           color: white;
+           border: 2px solid black  ;
+           margin-right: 20px;
+           margin-bottom: 20px;
+     }
+     #p2{
+        height: 50px;
+        width:50px;
+           background-color: darkgreen;
+           color: white;
+           border: 2px solid black  ;
+           margin-right: 20px;
+           margin-bottom: 20px;
+     }
+     img{
+        height: 200px;
+        width: 200px;
+
+     }
+     @media (max-width:640px){
+        .container{
+            flex-direction: column;
+        }
+     }
+   
+
+        @media (max-width:640px)
+        {
+            .container{
+                flex-direction: column;
+                
+            }
+            #boxLeft{
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+<div class="container">
+
+<div id="boxLeft">
+<p id="p1">Text 1</p>
+<p id="p2">Text 2</p>
+</div>
+<div id="boxRight">
+<img src="sql-server-joins.png" alt="not found">
+</div>
+
+</div>
+
+</body>
+</html>
+
