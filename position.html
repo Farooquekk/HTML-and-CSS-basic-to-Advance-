@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position in CSS</title>
+    <style>
+ img{
+    margin: 10px;
+ }
+ div{
+    border: 2px solid black;
+ }
+ .container{
+    position: relative;
+    height: 1000px;
+    background-color: skyblue;
+ }
+ .img2{
+         /* relative --> move acc to current window and gap maintained (4 properties:- left right top bottom ) */
+         /* position: relative;  */
+    /* top: 100px;
+    left: 200px; */
+
+    /* in absolute : gap is not maintained and img is relative to it's  closest positioned ancestors  */
+    /* position: absolute;  
+    top: 200px; */
+ }
+
+ .img4{
+    position: fixed;
+ }
+ .img3{
+    /* sticky: remains fixed util the parent container ends */
+    position: sticky;  
+    top: 200px;
+ }
+ .box{
+    background-color: bisque;
+    height: 1000px;
+ }
+
+    </style>
+</head>
+<body>
+    <h1>Position in CSS</h1>
+
+    <div class="container">
+
+        <img src="gencraft_image_1695209342434-1.png" alt="none"
+        height="300px"
+        width="300px"
+        class="img1"
+        />
+        <img src="gencraft_image_1695209357768-1.png" alt="none"
+        height="300px"
+        width="300px"
+        class="img2"
+        />
+        <img src="gencraft_image_1716524743028-1.png" alt="none"
+        height="300px"
+        width="300px"
+        class="img3"
+        />
+        <img src="gencraft_image_1716524850375-1.png" alt="none"
+        height="300px"
+        width="300px"
+        class="img4"
+        />
+       
+       
+    </div>
+    <div class="box"></div>
+    
+</body>
+</html>
