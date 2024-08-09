@@ -1,0 +1,15 @@
+
+units in CSS
+
+px :- = 1/96 inch is called pixels
+% :- percentage is depand on imidiate parent
+vw :- depend on screen size of ur laptop
+vh :- same as vw
+rem :- realtive ac to root element
+
+2 types
+absolute and relative
+cm and %, em, rem
+
+ppi vs dpi
+physical px vs logical px
