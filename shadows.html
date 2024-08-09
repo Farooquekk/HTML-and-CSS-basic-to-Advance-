@@ -1,0 +1,63 @@
+<!-- Shadows in CSS
+1. Box shadow 2. Text Shadow
+
+--3 third value is for blur radius but not work on -ve values
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+/* Root variable is global and can be used by anyone */
+        :root{
+            --primary_color :yellow; 
+        }
+        .container{
+            background-color: beige;
+            height: 650px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            /* How to create and use variables in CSS */
+            --primaryColor:yellow;
+            --primaryWidth:400px;
+            
+            background-color: aquamarine;
+            width: 600px;
+            height: 530px;
+            border: 2px solid black;
+            margin: 5px;
+            padding: 5px;
+            /* box-shadow: -50px -50px brown; */
+            /* box-shadow: 10px 15px 50px brown;  */
+            /* box-shadow: 10px 15px 5px 50px brown; */
+            /* box-shadow: inset 100px 15px brown; */
+            /* box-shadow: 10px 15px red, 19px 10px var(--primaryColor); */
+        }
+        #heading{
+            /* text-shadow: 2px 10px 2px white; */
+            /* text-shadow: yellow 12px 13px 2px; */
+            /* text-shadow: wheat 10px 130px; */
+            /* text-shadow: 12px 13px; */
+            text-shadow: 12px 4px 2px red, 20px 4px 2px blue;
+        }
+    </style>
+
+ </head>
+ <body>
+    <div class="container">
+        <div class="box">
+            <img src="sql-server-joins.png" alt="">
+            <h2 id="heading">Shadows In CSS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi obcaecati veritatis, porro maxime debitis ipsum at pariatur numquam, ad dolorum omnis accusantium dolores quos minima dicta qui cupiditate ratione expedita nisi ipsam, iusto voluptates. Pariatur temporibus nisi quo animi quam velit tenetur expedita odio reprehenderit culpa? Non, magni porro.</p>
+        </div>
+    </div>
+    
+ </body>
+ </html>
