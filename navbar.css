@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    height: 100px;
+    background-color: silver;
+    list-style-type: none; 
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    padding: 15px;
+    display: inline;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a :hover{
+    background-color: black;
+}
