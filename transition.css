@@ -1,0 +1,24 @@
+#circle{
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+    border-radius: 50%;
+    background-color: salmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    color: white;
+    text-decoration: underline;
+    transition: transform 2s ease-in-out ;
+   
+    
+}
+#circle:hover{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    color : black;
+   transform: translateX(1500px);
+
+}
