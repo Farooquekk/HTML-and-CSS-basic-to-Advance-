@@ -1,0 +1,92 @@
+
+
+
+#main{
+height: 100px;
+width: 100%;
+background-color: skyblue;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+#box1{
+    height: 70px;
+    width: 60px;
+    color: white;
+    text-decoration: underline;
+    background-color: goldenrod;
+    border: 2px solid black;
+    background-image: url("box1_image.jpg");
+    background-size: cover;
+
+}
+#box2{
+    color: white;
+    text-decoration: underline;
+    height: 70px;
+    width: 60px;
+    background-color:purple;
+    border: 2px solid black;
+    background-image: url("box2_image.jpg");
+    background-size: cover;
+}
+#box3{
+    color: white;
+    text-decoration: underline;
+    height: 70px;
+    width: 60px;
+    background-color:green;
+    border: 2px solid black;
+    background-image: url("box3_image.jpg");
+    background-size: cover;
+}
+
+#sec{
+    height: 100px;
+    width: 100%;
+    background-color: palegreen;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#box4{
+    color: white;
+    text-decoration: underline;
+    height: 70px;
+    width: 60px;
+    background-color: blue;
+    border: 2px solid black;
+    background-image: url("box5_image.jpg");
+    background-size: cover;
+}
+#box5{
+    color: white;
+    text-decoration: underline;
+    height: 70px;
+    width: 60px;
+    background-color: red;
+    border: 2px solid black;
+    background-image: url("box6_image.jpg");
+    background-size: cover;
+}
+#third{
+    height: 100px;
+    width: 100%;
+    background-color: sandybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box6{
+    color: white;
+    text-decoration: underline;
+    height: 70px;
+    width: 60px;
+    background-color: maroon;
+    border: 2px solid black; 
+    background-image: url("box4_image.jpg");
+    background-size: cover;
+}
